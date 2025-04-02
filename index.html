@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hawel Fresh & Clean</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; line-height: 1.6; color: #333; }
+    header {
+      position: relative;
+      background: url('BackGroundFront.jpg') no-repeat center center;
+      background-size: cover;
+      color: white;
+      padding: 4rem 1rem;
+      text-align: center;
+    }
+    header::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 0;
+    }
+    header * {
+      position: relative;
+      z-index: 1;
+    }
+    section { padding: 2rem 1rem; max-width: 900px; margin: auto; }
+    .leistungen { background: #f4f4f4; }
+    .leistungen ul { list-style: none; padding: 0; }
+    .leistungen li { margin: 0.5rem 0; }
+    .kontakt {
+      background: url('top-view-frame-with-products-cleaning.jpg') no-repeat center center;
+      background-size: cover;
+      color: black;
+      text-align: center;
+      padding: 4rem 1rem;
+    }
+    .kontakt h2::after {
+      content: " – Basel Hawel";
+      font-weight: normal;
+      font-size: 1rem;
+      display: block;
+      margin-top: 0.3rem;
+    }
+    .kontakt a { color: black; text-decoration: underline; }
+    footer { background: #264653; color: white; text-align: center; padding: 1rem; }
+    img { border-radius: 8px; transition: transform 0.3s ease; }
+    img:hover { transform: scale(1.05); }
+    .logo { max-width: 200px; margin-bottom: 1rem; }
+    .galerie {
+      padding: 2rem 1rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .galerie-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: space-between;
+    }
+    .galerie figure {
+      width: calc(20% - 0.8rem);
+      margin: 0;
+    }
+    .galerie img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+    }
+    .galerie figcaption {
+      text-align: center;
+      margin-top: 0.5rem;
+      font-style: italic;
+      color: #555;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="HawelFreshandClean.png" alt="Hawel Fresh & Clean Logo" class="logo" />
+    <h1>Hawel Fresh & Clean</h1>
+    <p>Ihr Partner für professionelle Reinigung</p>
+  </header>
+
+  <section class="ueber-uns">
+    <h2>Über uns</h2>
+    <p>Hawel Fresh & Clean ist ein junges, dynamisches Reinigungsunternehmen mit einem klaren Ziel: Sauberkeit, auf die man sich verlassen kann. Wir bieten Ihnen individuelle und zuverlässige Reinigungslösungen für private Haushalte, Büros und gewerbliche Flächen. Durch unsere Liebe zum Detail und unsere Motivation, stets das Beste zu geben, sorgen wir für Glanz und Frische in jedem Raum. Kundenzufriedenheit steht bei uns an erster Stelle. Vertrauen Sie auf Erfahrung, Engagement und Qualität – mit Hawel Fresh & Clean.</p>
+  </section>
+
+  <section class="leistungen">
+    <h2>Unsere Leistungen</h2>
+    <ul>
+      <li>✓ Büroreinigung</li>
+      <li>✓ Praxisreinigung</li>
+      <li>✓ Treppenhausreinigung</li>
+      <li>✓ Fensterreinigung</li>
+      <li>✓ Grundreinigung</li>
+      <li>✓ Hausmeisterdienstleistungen</li>
+    </ul>
+  </section>
+
+  <section class="galerie">
+    <h2>Einblicke in unsere Arbeit</h2>
+    <div class="galerie-container">
+      <figure>
+        <img src="Bürosreinigen.jpg" alt="Büroreinigung 1" />
+        <figcaption>Professionelle Reinigung von Büroräumen</figcaption>
+      </figure>
+      <figure>
+        <img src="Büroreinigen2.jpg" alt="Büroreinigung 2" />
+        <figcaption>Effiziente und gründliche Büroreinigung</figcaption>
+      </figure>
+      <figure>
+        <img src="Praxisreinigen.jpg" alt="Praxisreinigung" />
+        <figcaption>Sauberkeit in medizinischen Einrichtungen hat höchste Priorität</figcaption>
+      </figure>
+      <figure>
+        <img src="Glassreinigen.jpg" alt="Glasreinigung" />
+        <figcaption>Glasklare Ergebnisse bei der Fensterreinigung</figcaption>
+      </figure>
+      <figure>
+        <img src="man-cleaning-staircase-handrail-gloves.jpg" alt="Treppenhausreinigung" />
+        <figcaption>Gründliche Reinigung von Treppenhäusern – für Sicherheit und Hygiene</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="kontakt">
+    <h2>Kontakt</h2>
+    <p>Telefon: <a href="tel:+4915114294517">+49 151 14294517</a></p>
+    <p>Email: <a href="mailto:hawel.fresh.clean@gmail.com">hawel.fresh.clean@gmail.com</a></p>
+    <p>Wir freuen uns auf Ihre Anfrage!</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Hawel Fresh & Clean</p>
+  </footer>
+</body>
+</html>
+
